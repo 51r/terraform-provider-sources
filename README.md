@@ -1,6 +1,6 @@
 # Terraform Provider Sources
 
-This repo contains Terraform configuration that includes terraform block with required_providers, where the version and source are specified for **random** provider.
+This repo contains Terraform configuration that includes terraform block with required_providers, where the version and source are specified for the **random** provider.
 
 # Purpose of required_providers
 
