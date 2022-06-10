@@ -4,7 +4,7 @@ This repo contains Terraform configuration that includes terraform block with re
 
 # Purpose of required_providers
 
-With the release of Terraform v.0.13 they have changed the way Terraform downloads and install the providers used in the configuration. Now you can download the needed providers automatically by using the command `terraform init` if they are stored in the official terraform registry. If your project needs specific providers, you can use `required_providers` and specify your version and source for the providers.
+With the release of Terraform v.0.13 they have changed the way Terraform downloads and install the providers used in the configuration. Now you can download the needed providers automatically by using the command `terraform init` if they are stored in the official terraform [registry](https://registry.terraform.io/). If your project needs specific providers, you can use `required_providers` and specify your version and source for the providers. You can read more [here](https://www.terraform.io/language/providers/requirements#requiring-providers)
 
 ## If you need you can use a custom local stored providers:
 
